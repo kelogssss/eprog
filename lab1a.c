@@ -3,7 +3,7 @@
 
 int main()
 {
-	float a, b, c;
+	float a, b, c,d;
 	
 	printf("Enter Value for a ");
 	scanf("%f",&a);
@@ -14,7 +14,7 @@ int main()
 	printf("Enter Value for c");
 	scanf("%f",&c);
 	
-	printf("%f", c = ((a+b+c)/3));
+	printf("%f", d = ((a+b+c)/3));
 	
 
 	
