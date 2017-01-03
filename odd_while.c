@@ -1,12 +1,12 @@
 #include <stdio.h>  
    
 int main() {  
-    int counter; 
-    counter = 1;
-    while (counter <= 100) {  
-        printf("%d ", counter);
+    int x; 
+    x = 1;
+    while (x <= 100) {  
+        printf("%d ", x);
      
-        counter = counter + 2;  
+        x = x + 2;  
     }  
    
     return 0;  
