@@ -4,7 +4,7 @@ main(){
     FILE *myFile;
     myFile = fopen("chuchu.txt", "r");
  
-	 int c;
+   int c;
    int s[2];
 
    fscanf(myFile, "%d", &s[0]);
@@ -12,5 +12,5 @@ main(){
    c = sqrt((s[0]*s[0])+(s[1]*s[1]));
    
    printf("%d",c);
-    }
+}
 
